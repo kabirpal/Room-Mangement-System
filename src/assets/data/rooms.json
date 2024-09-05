@@ -1,0 +1,180 @@
+[
+    {
+        "id":1,
+        "name": "Room 1",
+        "deatils": "Duplex Room",
+        "capacity": 4,
+        "tags": ["projector", "sound"],
+        "timeSlots": [
+            {
+                "time": "9:00-10:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            },
+            {
+                "time": "12:00-01:00",
+                "available": true
+            },
+            {
+                "time": "01:00-02:00",
+                "available": true
+            },
+            {
+                "time": "02:00-03:00",
+                "available": false
+            },
+            {
+                "time": "04:00-05:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name": "Room 2",
+        "deatils": "Duplex Room",
+        "capacity": 2,
+        "tags": [],
+        "timeSlots": [
+            {
+                "time": "9:00-10:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            },
+            {
+                "time": "12:00-01:00",
+                "available": true
+            },
+            {
+                "time": "01:00-02:00",
+                "available": true
+            },
+            {
+                "time": "02:00-03:00",
+                "available": false
+            },
+            {
+                "time": "04:00-05:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            }
+        ]
+    },{
+        "id":3,
+        "name": "Room 3",
+        "deatils": "Duplex Room xyzsadsad",
+        "capacity": 2,
+        "tags": ["projector"],
+        "timeSlots": [
+            {
+                "time": "9:00-10:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            },
+            {
+                "time": "12:00-01:00",
+                "available": true
+            },
+            {
+                "time": "01:00-02:00",
+                "available": true
+            },
+            {
+                "time": "02:00-03:00",
+                "available": false
+            },
+            {
+                "time": "04:00-05:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            }
+        ]
+    },{
+        "id":4,
+        "name": "Room 4",
+        "deatils": "Duplex Room sajdkjjlsakdlkasd",
+        "capacity": 2,
+        "tags": ["large screen", "sound"],
+        "timeSlots": [
+            {
+                "time": "9:00-10:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            },
+            {
+                "time": "12:00-01:00",
+                "available": true
+            },
+            {
+                "time": "01:00-02:00",
+                "available": true
+            },
+            {
+                "time": "02:00-03:00",
+                "available": false
+            },
+            {
+                "time": "04:00-05:00",
+                "available": true
+            },
+            {
+                "time": "10:00-11:00",
+                "available": true
+            },
+            {
+                "time": "11:00-12:00",
+                "available": false
+            }
+        ]
+    }
+]

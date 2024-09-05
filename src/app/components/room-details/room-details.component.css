@@ -1,0 +1,92 @@
+.room-details{
+    border: 2px solid black;
+    height: screen;
+    padding: 10px;
+    
+}
+
+.time-slots{
+    margin-top: 10px;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.available-button{
+    background-color: green;
+    cursor: pointer;
+}
+
+.booked-btn{
+    background-color: rgb(240, 63, 63);
+    pointer-events: none;
+}
+
+.slots{
+    margin: 2px;
+    width: 100px;
+}
+
+.deatils-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-book-room{
+    background-color: aquamarine;
+}
+
+.weekdays{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:5px;
+}
+
+.days{
+    margin-right: 5px; 
+    width:45px;
+
+}
+
+.month-days{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calender{
+    max-width: 315px;
+}
+
+.dates{
+    margin-top: 5px; 
+    display: flex;
+}
+
+.calender-view{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:5px;
+    width:45px;
+}
+
+.date-btn{
+    width: 40px;
+}
+
+.day-btn{
+    width: 40px;
+    background-color: burlywood;
+}
+
+.tags{
+    margin-top: 15px;
+}
+

@@ -1,0 +1,25 @@
+<div class="room-list">
+  <div class="search">
+    <input type="text" [(ngModel)]="searchedQuery" (input)="searchRoom()" placeholder="Search Room">
+</div>
+  <div class="rooms">
+    <div class="room-container">
+      <div class="room-info" *ngFor="let room of filteredRoom">
+        <div class="deatils-container">
+            <h2>{{ room.name }}</h2>
+            <div class="tags">
+                <app-tag [tags]="room.tags"></app-tag>
+            </div>
+        </div>
+            <div class="deatils-container">
+                <p>{{ room.deatils }}</p>
+                <p>Room Capacity : {{ room.capacity }}</p>
+            </div>
+            <button (click)="selectRoom(room)">View Details</button>
+      </div>
+    </div>
+    <div class="room-details" *ngIf="selectedRoom">
+      <app-room-details [selectedRoom]="selectedRoom"> </app-room-details>
+    </div>
+  </div>
+</div>

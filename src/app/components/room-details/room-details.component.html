@@ -1,0 +1,40 @@
+<div class="room-details">
+    <div class="deatils-container">
+        <h1>{{ selectedRoom.name }}</h1>
+        <div class="tags">
+            <app-tag [tags]="selectedRoom.tags"></app-tag>
+        </div>
+    </div>
+            <div class="deatils-container">
+                <p>{{ selectedRoom.deatils }}</p>
+                <p>Room Capacity : {{ selectedRoom.capacity }}</p>
+            </div>
+
+            <div class="calender-container">
+                <div class="calender-view">
+                    <div class="calender">
+                        <div class="weekdays">
+                            <div class="days" *ngFor="let day of weekdays">
+                                <button class="day-btn">{{ day }}</button>
+                            </div>
+                            <div class="grid-items" *ngFor="let day of days">
+                                <button class="date-btn" (click)="onDateSelect(day)">{{ day }}</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="booking-btn">
+                        <button (click)="bookRoom()" class="btn-book-room">Book Room</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="time-slots" *ngIf="slotData">
+                <div *ngFor="let timeslots of slotData">
+                    <button class="slots" (click)="bookSlot(timeslots.time)"
+                        [ngClass]="{ 'available-button': timeslots.available, 'booked-btn':!timeslots.available}">
+                        {{ timeslots.time }}
+                    </button>
+                </div>
+            </div>
+        </div>

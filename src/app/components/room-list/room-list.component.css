@@ -1,0 +1,47 @@
+.rooms{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.room-container{
+    display: block;
+    width: 50%;
+    margin: 2px;
+}
+
+.room-info{
+    border: 3px solid black;
+    margin: 0 0 10px 0;
+    padding: 5px;   
+}
+
+.deatils-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+.room-info, .room-details
+{
+    flex: 0 0 50%;
+    box-sizing: border-box;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+.room-details{
+    margin: 2px;
+}
